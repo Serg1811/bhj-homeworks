@@ -1,6 +1,6 @@
-let imgCookie = document.getElementById('cookie');
-let clickerCounter = document.getElementById('clicker__counter');
-let clickerSpeed = document.getElementById('clicker__speed');
+const imgCookie = document.getElementById('cookie');
+const clickerCounter = document.getElementById('clicker__counter');
+const clickerSpeed = document.getElementById('clicker__speed');
 let time_1 = new Date();
 imgCookie.onclick = () => {
     let time_2 = new Date();

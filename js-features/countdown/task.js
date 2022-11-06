@@ -1,8 +1,8 @@
 const count = document.getElementById('timer')
 
-countTime = new Date(count.textContent * 1000);
+const countTime = new Date(count.textContent * 1000);
 
-nIntervalID = setInterval(() => {
+const nIntervalID = setInterval(() => {
 
     h = String(countTime.getUTCHours()).padStart(2, '0');
     m = String(countTime.getUTCMinutes()).padStart(2, '0');
